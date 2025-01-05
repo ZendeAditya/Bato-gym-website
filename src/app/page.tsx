@@ -2,6 +2,9 @@ import Nav from "@/components/Hero/Nav";
 import Hero from "../components/Hero/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services/Services";
+import Preferences from "@/components/Preferences";
+
+import Subscripton from "@/components/Subscription/Subscripton";
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
         </div>
         <Hero />
         <About />
-        <Services/>
+        <Services />
+        <Preferences />
+        <Subscripton />
       </div>
     </>
   );

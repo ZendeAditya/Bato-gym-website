@@ -8,7 +8,7 @@ import GYMModel from "../../../public/assets/GymModel.webp";
 // import OrangeGradientBackground from "../orange-gradient-background";
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-[#b88073] to-[#8250e7] text-white overflow-hidden">
+    <div className="w-full h-screen bg-gradient-to-r from-[#b88073] to-[rgb(130,80,231)] text-white overflow-hidden">
       <div className="md:flex items-center justify-center flex-wrap px-10 ">
         <div id="left" className="md:w-[50%] ">
           <h2 className="text-3xl md:text-6xl lg:text-8xl md:font-bold py-3 ">
