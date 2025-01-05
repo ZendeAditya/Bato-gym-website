@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
-import OrangeGradientBackground from "../orange-gradient-background";
 import { Button } from "../ui/button";
 import { ChevronsRight, CirclePlay, Plus, Star } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
 import Image from "next/image";
 import GYMModel from "../../../public/assets/GymModel.webp";
+// import OrangeGradientBackground from "../orange-gradient-background";
 const Hero = () => {
   return (
-    <div className="w-screen h-screen bg-gradient-to-r from-[#1F0D09] to-[#31241E]  text-white">
-      <div className="md:flex items-center justify-center flex-wrap px-10 relative">
+    <div className="w-full h-screen bg-gradient-to-r from-[#b88073] to-[#8250e7] text-white overflow-hidden">
+      <div className="md:flex items-center justify-center flex-wrap px-10 ">
         <div id="left" className="md:w-[50%] ">
           <h2 className="text-3xl md:text-6xl lg:text-8xl md:font-bold py-3 ">
             Push Your Limits With Us
@@ -73,9 +73,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      {/* <div className="absolute bottom-0">
         <OrangeGradientBackground />
-      </div>
+      </div> */}
     </div>
   );
 };
